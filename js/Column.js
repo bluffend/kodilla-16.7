@@ -18,7 +18,7 @@ function Column(id, name) {
 			self.deleteColumn();
 		});
 
-		$columnAddCard.click(function (event) {
+		columnAddCard.click(function (event) {
 			var cardName = prompt("Enter the name of the card");
 			event.preventDefault();
 			/* if (cardName === "" || name === null) {
