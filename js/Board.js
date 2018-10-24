@@ -9,16 +9,6 @@ var board = {
 
 $('.create-column')
 	.click(function () {
-
-		/*
-		if (name === "" || name === null) {
-										alert("Prosze podaj nazwę !") 
-					 }
-					 else {                
-						 board.createColumn(new Column(name));
-						}
-		*/
-
 		var columnName = prompt('Enter a column name');
 		$.ajax({
 			url: baseUrl + '/column',

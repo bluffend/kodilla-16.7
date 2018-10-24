@@ -10,10 +10,22 @@ body {margin: 0;}
   top: 0;
   width: 22px;
   height: 22px;
+  margin: 10px;
   border: 0;
-  background-color: rgba(0,0,0,0.4);
+  background-color: #6B0982;
+  border-radius: 5px;
   color: white;
 }
+.create-column {
+  padding: 10px;
+  margin: 8px;
+  color: #BCB382;
+  background-color: #09814A ;
+  font-size: 16px;
+  font-weight: bolder; 
+  border-radius: 5px;
+}
+
 /* BOARD */
 .board h1 {
   margin-left: 8px;
@@ -30,16 +42,25 @@ body {margin: 0;}
   order: 1;
   min-width: 300px;
   min-height: 50vh;
-  background-color: lightgrey;
+  background-color: #E5C687;
   margin-left: 8px;
   list-style: none;
   position: relative;
+  border-radius: 10px;
 }
 .column-add-card {
   cursor: pointer;
   text-decoration: underline;
   margin: 5px 8px;
+  padding: 5px;
   display: block;
+  color: #121619;
+  border-radius: 5px;
+}
+.column-title {
+  text-align: center;
+  color: #2D4739;
+  text-transform: uppercase;
 }
 
 /* STYLE KARTY */
