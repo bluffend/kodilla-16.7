@@ -34,20 +34,20 @@ function initalizeColumn(baseUrl) {
 					}
 					else {
 						cardName = inputCardName;
-						// event.preventDefault();
-						$.ajax({
-							url: baseUrl + '/card',
-							method: 'POST',
-							data: {
-								name: cardName,
-								bootcamp_kanban_column_id: self.id
-							},
-							success: function (response) {
-								var card = new Card(response.id, cardName);
-								self.createCard(card);
-							}
-						});
 					}
+					event.preventDefault();
+					$.ajax({
+						url: baseUrl + '/card',
+						method: 'POST',
+						data: {
+							name: cardName,
+							bootcamp_kanban_column_id: self.id
+						},
+						success: function (response) {
+							var card = new Card(response.id, cardName);
+							self.createCard(card);
+						}
+					});
 				}
 			});
 
