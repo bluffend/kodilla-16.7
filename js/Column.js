@@ -34,7 +34,7 @@ function initalizeColumn(baseUrl) {
 					}
 					else {
 						cardName = inputCardName;
-						event.preventDefault();
+						// event.preventDefault();
 						$.ajax({
 							url: baseUrl + '/card',
 							method: 'POST',
