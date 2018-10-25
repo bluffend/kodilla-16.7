@@ -1,7 +1,7 @@
 // OGÓLNA FUNKCJA
 
-var baseUrl = 'https://kodilla.com/pl/bootcamp-api'; // to są zmienne globalne ?
-var myHeaders = {									// to są zmienne globalne ?
+var baseUrl = 'https://kodilla.com/pl/bootcamp-api'; 
+var myHeaders = {									
 	'X-Client-Id': '3481',
 	'X-Auth-Token': '5752ee80fe1289013f8c59b00b24ef12'
 };
